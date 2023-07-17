@@ -186,6 +186,7 @@ main section {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  margin-top: 70px;
 }
 .featured div {
   width: 50%;
