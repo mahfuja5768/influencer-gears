@@ -1,0 +1,157 @@
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  img{
+    width: 90%;
+  }
+  .btn-1 , .btn-2{
+    font-weight: 500;
+  }
+  /* header */
+  .fa-bars {
+    display: block;
+  }
+  nav {
+    padding: 30px 0;
+    margin-bottom: 30px;
+  }
+
+  ul li{
+    display: none;
+  }
+  ul i {
+    font-size: 17px;
+  }
+  .name {
+    font-size: 16px; 
+  }
+ .fa-magnifying-glass{
+    display: none;
+ }
+ /* banner */
+.banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+    font-size: 28px;
+  }
+  .banner-content{
+    margin-top: 30px;
+  }
+  .banner-content p {
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+  }
+  
+  /* platforms */
+  .platforms{
+      flex-wrap: wrap;
+      margin-top: 50px;
+  }
+  .platforms img{
+      width: 64px;
+      margin: 10px;
+  }
+  /* collections-section */
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card img {
+    width: 100%;
+  }
+
+  /* featured */
+.featured {
+    flex-direction: column-reverse;
+  }
+  .featured div {
+    width: 100%;
+  }
+  .featured-fig img {
+    width: 100%;
+  }
+  .featured-content {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .featured-content h1 {
+    font-size: 24px;
+  }
+  .featured-content p {
+    width: 100%;
+  }
+  
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  img{
+    width: 90%;
+  }
+  /* header */
+  .fa-bars {
+    display: block;
+  }
+  ul li{
+    display: none;
+  }
+  /* banner */
+  .title {
+    font-size: 30px;
+  }
+  .banner-content{
+    margin-top: 30px;
+  }
+  .banner-content p {
+    font-weight: 500;
+    line-height: normal;
+    width: 80%;
+  }
+  
+  /* platforms */
+  .platforms{
+      flex-wrap: wrap;
+      margin-top: 70px;
+  }
+  .platforms img{
+    width: 74px;
+    margin: 10px 20px;
+}
+/* collections-section */
+.cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card img {
+    width: 100%; 
+  }
+  .card h1 {
+   font-size: 25px;
+  }
+  .price {
+    font-size: 20px;
+  }
+  /* featured */
+  .featured div {
+    width: 50%;
+  }
+  .featured-fig img {
+    width: 90%;
+  }
+  .featured-content {
+    text-align: start;
+    margin-bottom: 30px;
+  }
+  .featured-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .featured-content p {
+    width: 100%;
+  }
+}
